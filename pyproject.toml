@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytest-minecraft"
-version = "0.0.0"
+version = "0.1.0"
 description = "A pytest plugin for running tests against Minecraft releases"
 authors = ["Valentin Berlier <berlier.v@gmail.com>"]
 license = "MIT"
