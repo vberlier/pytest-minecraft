@@ -1,5 +1,9 @@
 # pytest-minecraft
 
+[![Build Status](https://travis-ci.com/vberlier/pytest-minecraft.svg?branch=master)](https://travis-ci.com/vberlier/pytest-minecraft)
+[![PyPI](https://img.shields.io/pypi/v/pytest-minecraft.svg)](https://pypi.org/project/pytest-minecraft/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/pytest-minecraft.svg)](https://pypi.org/project/pytest-minecraft/)
+
 > A pytest plugin for running tests against Minecraft releases.
 
 The plugin automatically downloads the latest version of the Minecraft client into the pytest cache. The provided fixtures can also extract the vanilla [resource pack](https://minecraft.gamepedia.com/Resource_Pack) and [data pack](https://minecraft.gamepedia.com/Data_Pack) on demand.
