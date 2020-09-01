@@ -1,3 +1,6 @@
+__version__ = "0.0.0"
+
+
 import shutil
 from pathlib import Path
 from zipfile import ZipFile
