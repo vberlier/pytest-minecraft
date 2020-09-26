@@ -13,12 +13,13 @@ MINECRAFT_VERSIONS = "https://launchermeta.mojang.com/mc/game/version_manifest.j
 
 
 def pytest_addoption(parser):
-    parser.addoption(
+    group = parser.getgroup("minecraft")
+    group.addoption(
         "--minecraft-latest",
         action="store_true",
         help="run tests against the latest minecraft release",
     )
-    parser.addoption(
+    group.addoption(
         "--minecraft-snapshot",
         action="store_true",
         help="run tests against the latest minecraft snapshot",
