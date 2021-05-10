@@ -27,7 +27,7 @@ pytest = "^6.0.1"
 requests = "^2.24.0"
 
 [tool.poetry.dev-dependencies]
-black = "^21.4b2"
+black = "^21.5b0"
 
 [tool.poetry.plugins.pytest11]
 minecraft = "pytest_minecraft"
