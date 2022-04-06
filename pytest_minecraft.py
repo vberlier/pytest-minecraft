@@ -1,4 +1,4 @@
-__version__ = "0.1.1"
+__version__ = "0.2.0"
 
 
 import shutil
@@ -7,7 +7,6 @@ from zipfile import ZipFile
 
 import pytest
 import requests
-
 
 MINECRAFT_VERSIONS = "https://launchermeta.mojang.com/mc/game/version_manifest.json"
 
